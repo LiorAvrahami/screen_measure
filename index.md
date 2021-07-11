@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Screen Measure
 
-You can use the [editor on GitHub](https://github.com/LiorAvrahami/screen_measure/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a program I made for myself, to measure praportions and distances on the screen of my computer.
 
-### Markdown
+## usage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+pressing enter captures the cursers position and enters it to one of the two slots. starting from the first slot, then the second slot, and then the first slot, etc..
 
-```markdown
-Syntax highlighted code block
+at any point the distance betwean the two captured points that are currently in the slots is displayed with units of pixles or cm. it is selected wich units to use vi a radio box. the program's pixel to cm convertion can, and should be calibrated by:
+1) pressing the red "Calibrate" button, 
+2) measuring the distance betwean the close edges of the two rectangles.
+3) write down the distance (in the unit system you prefer, text will be written as if it is in cm, but you can use any unit system you want).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LiorAvrahami/screen_measure/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Note that you should calibrate the distance converter before using the cm reading.
