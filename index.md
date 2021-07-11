@@ -14,3 +14,7 @@ at any point the distance betwean the two captured points that are currently in 
 3) write down the distance (in the unit system you prefer, text will be written as if it is in cm, but you can use any unit system you want).
 
 **Note that you should calibrate the distance converter before using the cm reading.
+
+
+Preview:
+![Preview](Preview.gif)
