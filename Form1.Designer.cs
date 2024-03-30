@@ -124,9 +124,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(195, 206);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(118, 22);
+            this.label4.Size = new System.Drawing.Size(117, 22);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Start Memory";
+            this.label4.Text = "Polygon Area";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             this.label4.MouseEnter += new System.EventHandler(this.label4_MouseEnter);
             this.label4.MouseLeave += new System.EventHandler(this.label4_MouseLeave);
@@ -159,7 +159,7 @@
             this.button_other_rate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_other_rate.Location = new System.Drawing.Point(175, 162);
             this.button_other_rate.Name = "button_other_rate";
-            this.button_other_rate.Size = new System.Drawing.Size(51, 18);
+            this.button_other_rate.Size = new System.Drawing.Size(50, 18);
             this.button_other_rate.TabIndex = 11;
             this.button_other_rate.Text = "Submit";
             this.button_other_rate.Visible = false;
@@ -186,6 +186,7 @@
             this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
